@@ -4,13 +4,12 @@ Build a Weather App to check the Air Quality of Las Vegas.
 '''
 
 from tkinter import *
-from PIL import ImageTk,Image
 import requests
 import json
 
 root = Tk()
 root.title('Weather App')
-root.iconbitmap('S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\Logo.ico')
+root.iconbitmap('S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\Logo.ico')
 root.geometry("400x40")
 root.configure(background='green')
 

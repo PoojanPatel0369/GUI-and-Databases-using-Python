@@ -12,7 +12,7 @@ import sqlite3
 
 root = Tk()
 root.title('Databases')
-root.iconbitmap('S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\Logo.ico')
+root.iconbitmap('S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\Logo.ico')
 root.geometry("400x700+300+130")
 
 #Databases
@@ -24,7 +24,7 @@ conn = sqlite3.connect('address_book.db')
 c = conn.cursor()
 
 #Create table (After creating the table, please comment the c.execute code.)
-#'''
+'''
 c.execute("""CREATE TABLE addresses (
         first_name text,
         last_name text,
@@ -33,7 +33,7 @@ c.execute("""CREATE TABLE addresses (
         state text,
         zipcode integer
         )""")
-#'''
+'''
 
 #Create Edit Function to update a record
 def update():
@@ -76,7 +76,7 @@ def edit():
     global editor
     editor = Tk()
     editor.title('Update A Record')
-    editor.iconbitmap('S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\Logo.ico')
+    editor.iconbitmap('S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\Logo.ico')
     editor.geometry("400x300+800+130")
 
     #Create a database or connect to one

@@ -4,11 +4,10 @@ Use sliders to make the size of the root window variable using GUI.
 '''
 
 from tkinter import *
-from PIL import ImageTk,Image
 
 root = Tk()
 root.title('Sliders')
-root.iconbitmap('S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\Logo.ico')
+root.iconbitmap('S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\Logo.ico')
 root.geometry("300x200")
 
 def slide():

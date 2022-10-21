@@ -10,11 +10,11 @@ from tkinter import filedialog
 root = Tk()
 root.title('Dialog Box')
 root.geometry("260x278+650+300")
-root.iconbitmap('S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\Logo.ico')
+root.iconbitmap('S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\Logo.ico')
 
 def open():
     global my_image
-    root.filename = filedialog.askopenfilename(initialdir='S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library', title="Select A File", filetypes=(("jpg files", "*.jpg"),("all files", "*.*")))
+    root.filename = filedialog.askopenfilename(initialdir='S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library', title="Select A File", filetypes=(("jpg files", "*.jpg"),("all files", "*.*")))
     my_label = Label(root, text=root.filename)
     my_image = ImageTk.PhotoImage(Image.open(root.filename))
     my_image_label = Label(image=my_image)

@@ -7,13 +7,12 @@ from tkinter import *
 
 root = Tk()
 root.title("Simple Calculator")
-root.iconbitmap('S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\Logo.ico')
+root.iconbitmap('S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\Logo.ico')
 
 e = Entry(root, width=40, borderwidth=5)
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
 
 def button_click(number):
-    #e.delete(0, END)
     current = e.get()
     e.delete(0, END)
     e.insert(0, str(current) + str(number))

@@ -7,7 +7,7 @@ from tkinter import *
 
 root = Tk()
 root.title('Check Box')
-root.iconbitmap('S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\Logo.ico')
+root.iconbitmap('S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\Logo.ico')
 root.geometry("300x100")
 
 def show():

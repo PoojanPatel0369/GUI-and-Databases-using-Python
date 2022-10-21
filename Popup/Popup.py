@@ -9,7 +9,7 @@ from tkinter import messagebox
 
 root = Tk()
 root.title('Types of Popups')
-root.iconbitmap('S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\Logo.ico')
+root.iconbitmap('S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\Logo.ico')
 root.geometry("280x160+620+150")
 
 #Types of message boxes: showinfo, showwarning, showerror, askquestion, askokcancel, askyesno

@@ -8,16 +8,16 @@ from PIL import ImageTk,Image
 
 root = Tk()
 root.title('Image Viewer App')
-root.iconbitmap('S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\Logo.ico')
+root.iconbitmap('S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\Logo.ico')
 
-my_img1 = ImageTk.PhotoImage(Image.open("S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\A.jpg"))
-my_img2 = ImageTk.PhotoImage(Image.open("S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\B.jpg"))
-my_img3 = ImageTk.PhotoImage(Image.open("S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\C.jpg"))
-my_img4 = ImageTk.PhotoImage(Image.open("S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\D.jpg"))
-my_img5 = ImageTk.PhotoImage(Image.open("S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\E.jpg"))
-my_img6 = ImageTk.PhotoImage(Image.open("S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\F.jpg"))
-my_img7 = ImageTk.PhotoImage(Image.open("S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\G.jpg"))
-my_img8 = ImageTk.PhotoImage(Image.open("S:\Python\Graphical User Interface (GUI) and Databases with Python\Picture Library\H.jpg"))
+my_img1 = ImageTk.PhotoImage(Image.open("S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\A.jpg"))
+my_img2 = ImageTk.PhotoImage(Image.open("S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\B.jpg"))
+my_img3 = ImageTk.PhotoImage(Image.open("S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\C.jpg"))
+my_img4 = ImageTk.PhotoImage(Image.open("S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\D.jpg"))
+my_img5 = ImageTk.PhotoImage(Image.open("S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\E.jpg"))
+my_img6 = ImageTk.PhotoImage(Image.open("S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\F.jpg"))
+my_img7 = ImageTk.PhotoImage(Image.open("S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\G.jpg"))
+my_img8 = ImageTk.PhotoImage(Image.open("S:\Programming Practice\GitHub\GUI-and-Databases-using-Python\Picture Library\H.jpg"))
 
 image_list = [my_img1, my_img2, my_img3, my_img4, my_img5, my_img6, my_img7, my_img8]
 
